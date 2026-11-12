@@ -39,7 +39,7 @@ function Login({ onLogin }) {
           <div className="food-emoji">?? ?? ?? ?? ??</div>
         </div>
 
-        <p className="login-footer">� 2026 FoodHub Management System</p>
+        <p className="login-footer">Â© 2026 FoodHub Management System</p>
       </div>
 
       <div className="login-right">
