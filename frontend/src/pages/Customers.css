@@ -1,0 +1,84 @@
+.customers-page {
+    padding: 25px;
+    color: #263238;
+}
+
+.customers-page h1 {
+    font-size: 28px;
+    margin-bottom: 8px;
+}
+
+.customers-page > p {
+    color: #777;
+    margin-bottom: 20px;
+}
+
+.customer-form {
+    display: flex;
+    gap: 12px;
+    flex-wrap: wrap;
+    background: white;
+    padding: 20px;
+    border-radius: 12px;
+    margin-bottom: 25px;
+    box-shadow: 0 3px 12px rgba(0,0,0,0.06);
+}
+
+.customer-form input {
+    flex: 1;
+    min-width: 160px;
+    padding: 12px;
+    border: 1px solid #ddd;
+    border-radius: 7px;
+}
+
+.customer-form button {
+    background: #ff7043;
+    color: white;
+    border: none;
+    border-radius: 7px;
+    padding: 12px 18px;
+    cursor: pointer;
+}
+
+.customer-search {
+    width: 100%;
+    max-width: 350px;
+    padding: 12px;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    margin-bottom: 20px;
+}
+
+.customer-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(230px, 1fr));
+    gap: 20px;
+}
+
+.customer-card {
+    background: white;
+    padding: 20px;
+    border-radius: 12px;
+    box-shadow: 0 3px 12px rgba(0,0,0,0.06);
+}
+
+.customer-card h3 {
+    margin-top: 0;
+    color: #263238;
+}
+
+.customer-card p {
+    color: #777;
+    overflow-wrap: anywhere;
+}
+
+.customer-card button {
+    background: #ffebee;
+    color: #c62828;
+    border: none;
+    padding: 9px 15px;
+    border-radius: 7px;
+    cursor: pointer;
+    margin-top: 10px;
+}
